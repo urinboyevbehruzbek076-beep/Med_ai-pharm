@@ -1,4 +1,4 @@
-"use client";
+/*"use client";
 import Sidebar from '@/components/sidebar';
 import { MapPin, Phone, Navigation } from 'lucide-react';
 import dynamic from 'next/dynamic';
@@ -27,7 +27,7 @@ export default function MijozXaritasi() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 flex-1">
-          {/* Ro'yxat */}
+          {/* Ro'yxat *//*}/*
           <div className="space-y-4 overflow-y-auto max-h-[75vh] pr-2 custom-scrollbar">
             {dorixonalar.map((d) => (
               <div key={d.id} className="bg-white p-5 rounded-[24px] border border-slate-100 hover:border-blue-500 transition-all shadow-sm group">
@@ -41,7 +41,7 @@ export default function MijozXaritasi() {
             ))}
           </div>
 
-          {/* Xarita qismi - Endi xato bermaydi */}
+          {/* Xarita qismi - Endi xato bermaydi *//*}/*
           <div className="lg:col-span-2 bg-white rounded-[40px] overflow-hidden border-8 border-white shadow-2xl min-h-[550px] relative z-0">
             <MapContainer center={[41.3111, 69.2797]} zoom={12} style={{ height: '100%', width: '100%' }}>
               <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
@@ -61,4 +61,4 @@ export default function MijozXaritasi() {
       </div>
     </div>
   );
-}
+}*/
